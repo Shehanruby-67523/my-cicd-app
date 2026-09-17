@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000;
 
 // Root endpoint - returns a greeting
 app.get('/', (req, res) => {
-  res.json({ message: 'Hello World from CI/CD!' });
+  res.json({ message: 'Hello from my automated pipeline!' });
 });
 
 // Health check endpoint - crucial for deployment monitoring
